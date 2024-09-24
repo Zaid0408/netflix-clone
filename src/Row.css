@@ -1,0 +1,40 @@
+.row{
+    margin-left: 20px;
+    color: white;
+}
+.row__poster{
+    width:100%;
+    object-fit: contain;
+    max-height: 150px;
+    transition: 450ms;
+    margin-right: 10px;
+}
+.row__posterLarge{
+    width:100%;
+    object-fit: contain;
+    max-height: 250px;
+    transition: 450ms;
+    margin-right: 10px;
+}
+.row__poster:hover{
+    /* transform will make it bigger when you hover over it */
+    transform:scale(1.08);
+    /* transition will make it smooth */
+}
+.row__posters{
+    display: flex;
+    overflow-y: hidden; 
+    /* will enable scrolling on x axis and not on y */
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* hide scrollbar in all browser */
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row__posterLarge:hover{
+    transform:scale(1.09);
+}
+
