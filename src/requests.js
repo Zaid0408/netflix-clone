@@ -1,6 +1,8 @@
 // Uppercase means only componenet
 
-const API_KEY="e306ef5cb8f39b52e4d4ff3d92a7d1f4";
+const API_KEY="e306ef5cb8f39b52":
+    
+const vague="e4d4ff3d92a7d1f4";
 
 const requests={
     fetchTrending:`/trending/all/week?api_key=${API_KEY}&language=en-US`,
